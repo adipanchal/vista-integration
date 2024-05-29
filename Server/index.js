@@ -19,7 +19,9 @@ app.post('/api/forms', async (req, res) => {
     }
 });
 
-app.listen(3000, async () => {
+const port = process.env.PORT || 3000;
+
+app.listen(port, async () => {
     await connectDB();
-    console.log('App is running..');
+    console.log(`App is running on port ${port}`);
 });
