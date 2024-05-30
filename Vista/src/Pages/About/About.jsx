@@ -173,7 +173,7 @@ const About = () => {
                 </h1>
 
                 <p className="mt-2 text-gray-500 capitalize  group-hover:text-gray-300">
-                  Senior Developer
+                  Developer
                 </p>
 
                 <div className="flex mt-3 -mx-2">
@@ -206,7 +206,7 @@ const About = () => {
                 </h1>
 
                 <p className="mt-2 text-gray-500 capitalize  group-hover:text-gray-300">
-                  Junior designer
+                  Developer
                 </p>
 
                 <div className="flex mt-3 -mx-2">
