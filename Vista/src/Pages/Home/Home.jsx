@@ -6,6 +6,7 @@ import Cta from "../../Components/Cta";
 import Servicescomp from "../../Components/Services/ServicesComponent";
 import ArrowButton from "../../Components/Buttons/ArrowButton";
 import ServicesBtn from "../../Components/Buttons/ServicesBtn";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   
@@ -170,6 +171,9 @@ const Home = () => {
           <Cta />
         </div>
         {/*--------------------------------------- Cta Section End --------------------------------*/}
+        <div className="admin-panel-btn fixed bottom-5 right-5">
+        <Link to="/admin" className="btn text-white bg-primary px-3 py-2 rounded-full">Go to Admin Panel</Link>
+        </div>
       </div>
     </>
   );
